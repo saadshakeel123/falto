@@ -1,0 +1,36 @@
+.containre{
+    height: 92.5vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/premium-vector/chinese-tea-plantation-colorful-landscape-mountains_329121-89.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    position: fixed;
+}
+.head{
+    margin-left: 58.4%;
+    margin-top: 43%;
+}
+.div1{
+    margin-left: 58.4%;
+    border: 2px solid white;
+    width: 33vw;
+    height: 7.5vh;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+.inp{
+    height: 7vh;
+    width: 25vw;
+    border-radius: 50px;
+    margin-left: 8%;
+    background: transparent scroll 0 0;
+    border: none;
+    outline: none;
+   
+
+}
+.sear{
+margin-left: 20px;
+margin-bottom: 10px;
+
+}
