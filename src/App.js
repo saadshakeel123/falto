@@ -1,9 +1,9 @@
 import Nav from "./component/nav/Nav"
 import { Routes, Route, } from "react-router-dom";
 import Hero from "./component/Hero"
-import Card from "./component/Card"
 import Props from "./component/Props"
-
+import Dropdown from "./component/Dropdown";
+import { Spain } from "./component/Dropdown";
 
 
 function App() {
@@ -13,7 +13,10 @@ function App() {
 
       <Routes>
         <Route path="" element={<Hero />} />
-          <Route path="/info" element={<Props/>} />
+        <Route path="/info" element={<Props />} />
+        <Route path="/dropdown" element={<Dropdown />} >
+          <Route path="/dropdown/spain" element={<Spain />} />
+        </Route>
       </Routes>
     </ div>
   );
