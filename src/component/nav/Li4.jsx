@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
+
+
 function Li4(){
     return (
         <li class="nav-item">
-        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Login</a>
+        <Link class="nav-link" to="/" tabindex="-1" aria-disabled="true">Login</Link>
       </li>
     )
 }

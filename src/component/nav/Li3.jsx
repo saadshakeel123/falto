@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Li3(){
     return (
         <li class="nav-item">
-        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="" aria-expanded="false">
+        <Link class="nav-link " to="/" id="navbarDropdown" role="button" data-bs-toggle="" aria-expanded="false">
           Contact
-        </a>
+        </Link>
 
       </li>
     )

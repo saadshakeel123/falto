@@ -13,14 +13,14 @@
 .div1{
     margin-left: 58.4%;
     border: 2px solid white;
-    width: 33vw;
-    height: 7.5vh;
+    width: 25rem;
+    height: 3rem;
     border-radius: 50px;
     margin-top: 15px;
 }
 .inp{
-    height: 7vh;
-    width: 25vw;
+    height: 2rem;
+    width: 19rem;
     border-radius: 50px;
     margin-left: 8%;
     background: transparent scroll 0 0;
@@ -41,7 +41,27 @@ margin-bottom: 10px;
     margin-top: 3%;
     background-image: url(https://wallpapercave.com/wp/wp3382659.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border-radius: 10px;
+}
+.img1{
+    height:39vh;
+    width: 45vw;
+    margin-left: 2%;
+    margin-top: 3%;
+    background-image: url(https://i.natgeofe.com/k/e800ca90-2b5b-4dad-b4d7-b67a48c96c91/spain-madrid.jpg?w=636&h=358);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.img3{
+    height:39vh;
+    width: 45vw;
+    margin-left: 2%;
+    margin-top: 3%;
+    background-image: url(https://static.independent.co.uk/2021/08/10/15/iStock-1271579758.jpg?width=1200);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
 }
 .div2{
@@ -58,3 +78,4 @@ body{
     height: 100%;
     background-color: rgb(59, 59, 59);
 }
+

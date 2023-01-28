@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 function Card(props) {
   return (
@@ -8,7 +8,7 @@ function Card(props) {
       <div className={props.data.card_class}>
         <h5 className={props.data.h5_class} >{props.data.name} </h5>
         <p className={props.data.p_class} > {props.data.info}</p>
-        <a href={props.data.btn} className={props.data.a_class} target="_blank"> Buy Now!</a>
+        <Link  className={props.data.a_class} to="/" > Buy Now!</Link>
       </div>
     </div>
 
